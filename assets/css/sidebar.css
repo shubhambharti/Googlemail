@@ -1,0 +1,78 @@
+body{
+    background-color: #8aecf4;
+}
+.side-nav{
+	background-color: rgb(247, 250, 251);
+    height: 100%;
+   
+}
+.navbar-brand img{
+    height: 45px;
+    width: 80px;
+}
+.drop-menu button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: none;
+    padding: 0;
+}
+.drop-menu button:hover{
+    background-color: #e8eaed;
+    border-radius: 25px;
+}
+a span,i{
+    color: black;
+}
+
+.compose{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    background-color: #c2e7ff;
+    margin: 10px 0 0 30px;
+    padding: 10px;
+}
+.compose a{
+    padding: 12px;
+}
+a {
+    text-decoration: none;
+}
+.compose i{
+    margin: 10px;
+}
+.compose:hover{
+    box-shadow: 0 0 8px rgba(23, 35, 52, 0.221);
+}
+.flex-nowrap{
+    margin-left: 1%;
+}
+ul,li{
+    width: 100%;
+}
+li:hover{
+    background-color: #e8eaed;
+    border-radius:0 25px 25px 0;
+    font-weight: 500;
+}
+li:nth-last-child(1):hover{
+    background-color: transparent;
+    border-radius: none;
+    font-weight: normal;
+}
+.more li:hover{
+    background-color: #e8eaed;
+    border-radius:0 25px 25px 0;
+    font-weight: 500;
+}
+.col-10, .d-flex{
+    padding: 0;
+}
+li a{
+    margin-left: 20px;
+}
+li a i{
+    margin-right: 20px;
+}

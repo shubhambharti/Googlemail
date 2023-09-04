@@ -1,0 +1,89 @@
+
+/* compose  */
+.my-modal{
+    height: 88vh !important;
+    /* width: 100%!important; */
+    border-radius: 15px 15px 0 0;
+    box-shadow: 0 0 10px rgba(23, 35, 52, 0.221);
+    background-color: #fff;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.comp-nav{
+    background-color: #f2f6fc;
+}
+.comp-close button{
+    padding: 5px;
+    filter: invert(.3);
+    height: 40px;
+    width: 30px;
+}
+.comp-close button:hover{
+    padding: 5px 0;
+    background-color: #e8eaed;
+    border-radius: 5px;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+button i{
+    color: black;
+}
+form{
+    margin:0 10px;
+}
+.form-control{
+    outline: none;
+    border: none !important;
+}
+.form-control:focus{
+    box-shadow: none !important;
+}
+.recipients{
+    position: relative;
+}
+.recipients div button:hover{
+    text-decoration: underline;
+}
+.cc-btn{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+#cc,#bcc{
+    display:none;
+}
+.textarea{
+    height: 50vh;
+    /* position: sticky; */
+    resize: none;
+}
+.send-btn{
+    background-color:#0b57d0;
+    border-radius: 25px;
+    
+}
+.send-btn button:nth-child(1){
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.275) ;
+    border-radius: none;
+}
+.send-btn:hover{
+    box-shadow: 0 0 15px rgba(19, 81, 169, 0.66);
+}
+.btn:hover{
+    background-color: transparent;
+}
+.utility button,.discard button{
+    filter: invert(.3);
+    height: 30px;
+    width: 30px;
+}
+.utility button:hover,.discard button:hover{
+    background-color: #e8eaed;
+    border-radius: 8px;
+}

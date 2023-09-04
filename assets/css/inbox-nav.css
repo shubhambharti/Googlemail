@@ -1,0 +1,92 @@
+body{
+    background-color: #ffffff;
+}
+header{
+    background-color: rgb(246, 252, 253);
+}
+
+.drop-menu i{
+    padding-left: 30%;
+}
+a {
+    text-decoration: none;
+}
+.navbar-brand img{
+    height: 45px;
+    width: 80px;
+}
+.drop-menu button{
+    height: 40px;
+    width: 40px;
+}
+.drop-menu button:hover{
+    background-color: #e8eaed;
+    border-radius: 25px;
+}
+.drop-menu i{
+    width: 100%;
+    padding: 0;
+    font-weight: 600;
+}
+.input-group{
+    width: 70% !important;
+    position: relative;
+}
+.input-group input{
+    background-color:#eaf1fb;
+    border:none;
+    border-radius: 8px !important;
+    height: 45px;
+    padding-left: 40px;
+}
+.input-group input:focus{
+    background-color: transparent;
+}
+
+.input-group> button>i{
+    position: absolute;
+    top: 45%;
+    right: 2%;
+    border-radius: 8px;
+}
+
+.input-group-btn{
+    position: absolute;
+    top: 18%;
+    left:1.5%;
+    display: flex;
+    pointer-events: none;
+}
+.input-group-btn button{
+    cursor: pointer;
+    pointer-events: all;
+    height: 30px;
+    width: 30px;
+}
+.input-group-btn button:hover{
+    background-color: #e8eaed;
+    border-radius: 25px;
+}
+.right-nav button{
+    height: 40px;
+    width: 40px;
+}
+.right-nav button:hover{
+    background-color: #e8eaed;
+    border-radius: 25px;
+}
+.profile img{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+/* i{
+    filter: invert(.5);
+} */
+
+.right-nav button,.drop-menu  button,.input-group button{
+    border: none;
+    background: none;
+    padding: 0;
+}
